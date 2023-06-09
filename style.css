@@ -1,0 +1,146 @@
+*{
+    background-color: rgb(161, 185, 209);
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    margin-left: 4px;
+    font-size: 40px;
+    color: darkslateblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: changeTextStyle 2s  linear infinite;
+    background-color: rgb(125, 149, 219);
+}
+@keyframes changeTextStyle {
+    0%{
+        color: blue;
+    }
+    25%{
+        color: brown;
+    }
+    50%{
+        color: blue;
+    }
+    75%{
+        color: brown;
+    }
+    100%{
+        color: blue;
+    }
+}
+.container{
+    width: 40%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 45%;
+    left: 50%;
+    overflow: hidden;
+    border: 8px solid white;
+    border-radius: 2px;
+    box-shadow: 10px 25px 30px rgba(30, 30, 200, 0.3);
+}
+.slider{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+img{
+    width: 100%;
+}
+.content{
+    margin-top: 340px;
+   margin-left: 120px;
+   margin-right: 120px;
+    width: 80%;
+   text-align: left;
+   color: rgb(35, 2, 2);
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content h3{
+    top: 200%;
+    font-size: 30px;
+    color: darkslateblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content p {
+    padding-left: 10px;
+}
+#compassion{
+    text-align: left;
+    color: rgb(35, 2, 2);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+}
+#simplicity{
+    text-align: left;
+    color: rgb(35, 2, 2);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#global-reach{
+    text-align: left;
+    color: rgb(35, 2, 2);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#philanthropy{
+    text-align: left;
+    color: rgb(35, 2, 2);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#btn1{
+    text-align: center;
+    background-color:grey;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    animation: changecolor 2s  linear infinite;
+}
+@keyframes changecolor {
+    0%{
+        background-color:lightseagreen;
+    }
+    25%{
+        background-color:grey;
+    }
+    50%{
+        background-color:lightseagreen;
+    }
+    75%{
+        background-color:grey;
+    }
+    100%{
+        background-color:lightseagreen;
+    }
+}
+#button{
+    margin-left: 300px;
+}
+footer{
+    margin-left: 300px;
+}
